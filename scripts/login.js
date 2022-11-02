@@ -6,7 +6,7 @@ var err=document.getElementById("error").innerHTML;
 //empty field validation
 if(username==""){alert("User Name Should not be empty");} if(password==""){alert("Password should not be empty");}
 //if name and password match
-if ( username == "negative" && password == "naseeb"){
+if ( username == "akashStore" && password == "Project"){
 document.getElementById("error").innerHTML="Log in sucessfull";
 window.location = "brands.html";
 return false;
